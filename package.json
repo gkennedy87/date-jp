@@ -1,0 +1,36 @@
+{
+  "name": "date-jp",
+  "version": "1.0.0",
+  "description": "Adds Japanese kanji and formatting support to native JS Date object",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkennedy87/date-jp.git"
+  },
+  "keywords": [
+    "japanese",
+    "kanji",
+    "javascript",
+    "dates"
+  ],
+  "author": "Grant Kennedy",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/gkennedy87/date-jp/issues"
+  },
+  "homepage": "https://github.com/gkennedy87/date-jp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
